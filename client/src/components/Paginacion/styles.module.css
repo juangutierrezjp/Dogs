@@ -1,0 +1,48 @@
+.button {
+    background-color: #695ee3;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 5em;
+    border-radius: 1rem;
+    color: #3f3c5a;
+    box-shadow: 0 0.4rem #3c3636;
+    cursor: pointer;
+   }
+   
+   .button:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+   }
+   
+   .button:hover:not(:disabled) {
+    background: #6855f8;
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+   }
+   
+   .button:disabled {
+    cursor: auto;
+    color: grey;
+   }
+
+.cont{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+    
+   
+}
+.button[disabled]{
+    background-color: #696969;
+    cursor: no-drop;
+}
+.input{
+    height: 30px;
+    width: 25px;
+    text-align: center;
+    border: 1px solid #242424;
+    border-radius: 3px;
+}
